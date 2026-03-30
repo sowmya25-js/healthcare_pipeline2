@@ -1,8 +1,8 @@
 -- Reset table (important for repeated runs)
-DROP TABLE IF EXISTS patients;
+DROP TABLE IF EXISTS patients_new;
 
 -- Create table
-CREATE TABLE patients (
+CREATE TABLE patients_new (
     patient_id SERIAL PRIMARY KEY,
     name TEXT,
     age INT,
@@ -13,7 +13,7 @@ CREATE TABLE patients (
 );
 
 -- Insert fixed sample data
-INSERT INTO patients (name, age, gender, disease, admission_date, hospital)
+INSERT INTO patients_new (name, age, gender, disease, admission_date, hospital)
 VALUES
 ('Ravi Kumar', 45, 'Male', 'Diabetes', '2026-03-01', 'Apollo'),
 ('Sneha Reddy', 32, 'Female', 'Asthma', '2026-03-02', 'KIMS'),
