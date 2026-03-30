@@ -1,5 +1,8 @@
+-- Reset table (important for repeated runs)
+DROP TABLE IF EXISTS patients;
+
 -- Create table
-CREATE TABLE IF NOT EXISTS patients (
+CREATE TABLE patients (
     patient_id SERIAL PRIMARY KEY,
     name TEXT,
     age INT,
@@ -18,9 +21,4 @@ VALUES
 ('Priya Singh', 28, 'Female', 'Cardiac', '2026-03-04', 'Apollo'),
 ('Rahul Verma', 60, 'Male', 'Diabetes', '2026-03-05', 'KIMS'),
 ('Anjali Mehta', 35, 'Female', 'Asthma', '2026-03-06', 'Yashoda'),
-('Kiran Rao', 40, 'Male', 'Hypertension', '2026-03-07', 'Apollo'),
-('Pooja Nair', 29, 'Female', 'Cardiac', '2026-03-08', 'KIMS'),
-('Suresh Patel', 55, 'Male', 'Diabetes', '2026-03-09', 'Yashoda'),
-('Neha Gupta', 31, 'Female', 'Asthma', '2026-03-10', 'Apollo');
-
-ALTER TABLE patients_new ADD COLUMN created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+('Kiran Rao', 40, 'Male', 'Hypertension', '2026-03-07', 'Apollo');
