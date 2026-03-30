@@ -1,5 +1,5 @@
 -- Reset table (important for repeated runs)
-
+DROP TABLE IF EXISTS patients_new;
 -- Create table
 CREATE TABLE patients_new (
     patient_id SERIAL PRIMARY KEY,
