@@ -22,3 +22,5 @@ VALUES
 ('Pooja Nair', 29, 'Female', 'Cardiac', '2026-03-08', 'KIMS'),
 ('Suresh Patel', 55, 'Male', 'Diabetes', '2026-03-09', 'Yashoda'),
 ('Neha Gupta', 31, 'Female', 'Asthma', '2026-03-10', 'Apollo');
+
+ALTER TABLE patients_new ADD COLUMN created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
