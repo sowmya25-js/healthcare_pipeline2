@@ -33,6 +33,6 @@ VALUES
 ('Rohit Sharma', 58, 'Male', 'Diabetes', '2026-03-17', 'KIMS'),
 ('Swathi Rao', 26, 'Female', 'Asthma', '2026-03-18', 'Yashoda'),
 ('Naveen Kumar', 49, 'Male', 'Hypertension', '2026-03-19', 'Apollo'),
-('Lakshmi Devi', 33, 'Female', 'Cardiac', '2026-03-20', 'KIMS');
-('Devisri', 34, 'Female', 'Cardiac', '2026-04-02', 'KIMS');
+('Lakshmi Devi', 33, 'Female', 'Cardiac', '2026-03-20', 'KIMS'),
+('Devisri', 34, 'Female', 'Cardiac', '2026-04-02', 'KIMS'),
 ('Rao', 43, 'Male', 'Diabetes', '2026-04-03', 'Yashoda');
